@@ -1,0 +1,44 @@
+header{
+    text-align: right;
+    font-family: 'Prata', serif;
+    background-color: lightgray;
+    height: 2%;
+    padding: 1%;
+    padding-right: 5%;
+    font-size: .85rem;
+}
+
+nav{
+    font-family: 'Prata', serif;
+    font-size: 1rem;
+    padding-right: 5%;
+    display: flexbox;
+    width: auto;
+    color: black;
+}
+ul{
+    list-style-type: none;
+    display: flexbox;
+    text-align: right;
+    float: right;  
+    width: 85%;  
+    vertical-align: center;
+    line-height: 4rem;
+}
+li{
+    float: right;
+    margin-left: 13%;
+    background-color: #ffcc00;
+    padding: .25% 3%;
+    border-radius: 50%;
+    color: darkgreen;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#logo{
+    width: 8rem;
+    height: 6rem;
+}
