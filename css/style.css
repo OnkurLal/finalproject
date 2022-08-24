@@ -42,3 +42,9 @@ a{
     width: 8rem;
     height: 6rem;
 }
+#video{
+    text-align: center; 
+}
+.videos{
+    margin: 1% 3%;
+}
