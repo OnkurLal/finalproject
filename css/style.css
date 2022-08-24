@@ -50,10 +50,10 @@ a{
 }
 
 #map{
-    display: inline-flex;
-    width: 100%;
+    display: flex;
     justify-content: center;
     margin: 3%;
+    width: auto;
 }
 aside{
     margin: 3%;
@@ -83,7 +83,7 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   input[type=submit] {
-    background-color: darkgreen;
+    background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -97,10 +97,10 @@ input[type=text], select, textarea {
   
   .form {
     background-color: #ffcc00;
-    margin-left: 27%;
-    width: 50%;
+    justify-content: center;
     padding: 1% 2%;
     color: darkgreen;
+    margin: 0% 20%;
   }
 #formtitle{
     text-align: center;
@@ -109,5 +109,30 @@ input[type=text], select, textarea {
     color: #ffcc00;
 }
 #email{
-    color: #ffcc00;
+    color: #ffcc00
+}
+#about{
+    padding: 0% 15%;
+    text-align: left;
+}
+#aboutpic{
+    padding: 1%;
+    height: 60%;
+    width: 50%;
+}
+#aboutsec{
+    text-align: center;
+}
+#biopic{
+    width: 22%;
+    height: 74%;
+    float: left;
+    padding: 2%;
+}
+#bioheader{
+    padding-top: 2%;
+}
+#bio{
+    margin-top: 1%;
+    margin-right: 5%;
 }
