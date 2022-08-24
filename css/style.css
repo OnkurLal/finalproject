@@ -1,6 +1,8 @@
+body{
+    font-family: 'Prata', serif;
+}
 header{
     text-align: right;
-    font-family: 'Prata', serif;
     background-color: lightgray;
     height: 2%;
     padding: 1%;
@@ -9,12 +11,10 @@ header{
 }
 
 nav{
-    font-family: 'Prata', serif;
     font-size: 1rem;
     padding-right: 5%;
     display: flexbox;
     width: auto;
-    color: black;
 }
 ul{
     list-style-type: none;
@@ -47,4 +47,67 @@ a{
 }
 .videos{
     margin: 1% 3%;
+}
+
+#map{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    margin: 3%;
+}
+aside{
+    margin: 3%;
+}
+#columnone{
+    padding-top: 5%;
+}
+
+input[type=text], select, textarea {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email], select, textarea {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: darkgreen;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    background-color: #ffcc00;
+    margin-left: 27%;
+    width: 50%;
+    padding: 1% 2%;
+    color: darkgreen;
+  }
+#formtitle{
+    text-align: center;
+}
+#phone{
+    color: #ffcc00;
+}
+#email{
+    color: #ffcc00;
 }

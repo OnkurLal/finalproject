@@ -16,7 +16,7 @@
         Need help? Give us a call (703) 555-5555
     </header>
     <nav>
-        <img id="logo" src="images/logo.png" alt="logo">
+        <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
          <ul>   
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="services.html">Services</a></li>
@@ -24,5 +24,40 @@
             <li><a href="index.html">Home</a></li>
          </ul>
     </nav>
+    <section id="map">
+        <aside id="columnone">
+            <h2>Contact Us</h2>
+            <p>
+                <i id="phone" class="fa-solid fa-square-phone"></i></i> 703-555-5555
+            </p>
+            <p>
+                <i id="email" class="fa-solid fa-envelope"></i></i> info@brighterdays.com
+            </p>
+        </aside>
+        <aside id="columntwo">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.2757271188525!2d-77.15121668484832!3d38.780312979588956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b28753b6b531%3A0xf648d050e76b96e7!2s6162%20Fuller%20Ct%2C%20Alexandria%2C%20VA%2022310!5e0!3m2!1sen!2sus!4v1661346799040!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+    </section>
+    <div class="form">
+       <h2 id="formtitle">Request an Appointment</h2>
+        <form action="/action_page.php">
+          <label for="name">Full Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+          <br>
+          <label for="phnumber">Phone Number:</label><br>
+          <input type="text" id="phnumber" name="phnumber" placeholder="Your phone number..">
+         <br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="Your email..">
+          <br>
+          <label for="subject">Subject:</label><br>
+          <input type="text" id="subject" name="subject" placeholder="Your subject..">
+          <br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" placeholder="Your message.." style="height:20%"></textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
 </body>
 </html>
