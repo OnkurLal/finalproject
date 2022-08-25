@@ -3,11 +3,12 @@ body{
 }
 header{
     text-align: right;
-    background-color: lightgray;
+    background-color: #ffcc00;
     height: 2%;
     padding: 1%;
     padding-right: 5%;
     font-size: .85rem;
+    color: darkgreen;
 }
 
 nav{
@@ -16,7 +17,7 @@ nav{
     display: flexbox;
     width: auto;
 }
-ul{
+.navbar{
     list-style-type: none;
     display: flexbox;
     text-align: right;
@@ -25,7 +26,7 @@ ul{
     vertical-align: center;
     line-height: 4rem;
 }
-li{
+.navbarlist{
     float: right;
     margin-left: 13%;
     background-color: #ffcc00;
@@ -52,7 +53,7 @@ a{
 #map{
     display: flex;
     justify-content: center;
-    margin: 3%;
+    margin: 2%;
     width: auto;
 }
 aside{
@@ -83,7 +84,7 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: darkgreen;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -94,11 +95,13 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
+  #submit{
+    text-align: center;
+  }
   .form {
     background-color: #ffcc00;
     justify-content: center;
-    padding: 1% 2%;
+    padding: 0.25% 2%;
     color: darkgreen;
     margin: 0% 20%;
   }
@@ -116,18 +119,19 @@ input[type=text], select, textarea {
     text-align: left;
 }
 #aboutpic{
-    padding: 1%;
-    height: 60%;
-    width: 50%;
+    padding: 1% 0%;
+    height: 100%;
+    width: 100%;
 }
 #aboutsec{
     text-align: center;
 }
 #biopic{
-    width: 22%;
-    height: 74%;
-    float: left;
+    width: 85%;
+    height: 90%;
     padding: 2%;
+    margin-left: 10%;
+    margin-top: 9%;
 }
 #bioheader{
     padding-top: 2%;
@@ -135,4 +139,68 @@ input[type=text], select, textarea {
 #bio{
     margin-top: 1%;
     margin-right: 5%;
+    display: inline-flex;
+}
+#serviceimg{
+    height: 100%;
+    width: 100%;
+}
+.servicecolumns{
+    list-style-type: square;
+}
+.servicelist{
+    padding: 2%;
+}
+#servicesec{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2%;
+}
+#servicescolumn{
+    width: 25%;
+    margin: 0% 2%;
+}
+#homepic{
+    width: 100%;
+    height: 100%;
+}
+#home{
+    background-color: #ffcc00;
+    color: darkgreen;
+    text-align: center;
+    padding: 1%;
+}
+#quote{
+    font-style: italic;
+}
+#icons{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 2%;
+    text-align: center;
+    margin: 1% 0%;
+}
+.icon{
+    padding: 1% 5%;
+}
+.quotes{
+    font-style: italic;
+}
+#homeicon{
+    color: #ffcc00;
+    font-size: 200%;
+}
+footer{
+    text-align: center;
+    color: darkgreen;
+    font-size: 200%;
+    background-color: #ffcc00;
+    margin-top: 1%;
+}
+#footericon{
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
