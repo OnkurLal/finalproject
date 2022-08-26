@@ -127,19 +127,24 @@ input[type=text], select, textarea {
     text-align: center;
 }
 #biopic{
-    width: 85%;
-    height: 90%;
-    padding: 2%;
-    margin-left: 10%;
-    margin-top: 9%;
+    width: 25%;
+    height: 60%;
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
 }
 #bioheader{
     padding-top: 2%;
+    line-height: 0%;
 }
 #bio{
     margin-top: 1%;
     margin-right: 5%;
-    display: inline-flex;
+    margin-left: 5%;
+}
+.paragraph{
+    line-height: 0.5rem;
 }
 #serviceimg{
     height: 100%;
@@ -203,4 +208,7 @@ footer{
     margin-top: 1%;
     margin-right: 2%;
     margin-left: 2%;
+}
+.paragraph{
+    line-height: 2;
 }
