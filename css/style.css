@@ -150,7 +150,12 @@ input[type=text], select, textarea {
     width: 100%;
 }
 .servicecolumns{
-    list-style-type: square;
+    list-style-type: none;
+    padding-left: 2%;
+}
+.servicecolumns li::before{
+    content: '✓ ';
+
 }
 .servicelist{
     padding: 2%;
