@@ -15,12 +15,10 @@ header{
 nav{
     font-size: 1rem;
     padding-right: 5%;
-    display: flexbox;
     width: auto;
 }
 .navbar{
     list-style-type: none;
-    display: flexbox;
     text-align: right;
     float: right;  
     width: 85%;  
